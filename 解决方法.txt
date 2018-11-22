@@ -1,0 +1,16 @@
+解决方法
+先打开git bash窗口 
+执行命令：
+
+git config --system http.sslcainfo "C:\Program Files (x86)\git\bin\curl-ca-bundle.crt"
+1
+（注意修改为正确的文件路径）或
+
+git config --system http.sslverify false
+1
+我使用git config --system http.sslverify false命令解决问题。
+--------------------- 
+作者：sdhongjun 
+来源：CSDN 
+原文：https://blog.csdn.net/sdhongjun/article/details/52144253 
+版权声明：本文为博主原创文章，转载请附上博文链接！
